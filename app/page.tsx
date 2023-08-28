@@ -76,6 +76,7 @@ export default function Home() {
       <input type="file" onChange={handleUpload} />
       <UserCreateForm width={"33vmax"}/>
       <NewPost/>
+      <p>{new Date().toISOString()}</p>
       <div>
         <h1>Users:</h1>
         {users.map(user=>(
