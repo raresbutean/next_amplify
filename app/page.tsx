@@ -10,7 +10,7 @@ import '@aws-amplify/ui-react/styles.css';
 import NewPost from './ui-components/NewPost'
 
 
-Amplify.configure(awsmobile)
+Amplify.configure({...awsmobile,ssr:true})
 
 const handleAddPost = async ()=>{
   const user = await DataStore.save(

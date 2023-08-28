@@ -16,13 +16,13 @@
         "nextamplify": {}
       },
       "function": {
-        "hello2": {
-          "deploymentBucketName": "amplify-nextamplify-staging-144539-deployment",
-          "s3Key": "amplify-builds/hello2-3955716a386269637579-build.zip"
-        },
         "nextamplify6cb81334": {
           "deploymentBucketName": "amplify-nextamplify-staging-144539-deployment",
-          "s3Key": "amplify-builds/nextamplify6cb81334-66554a6e757938656f31-build.zip"
+          "s3Key": "amplify-builds/nextamplify6cb81334-3763304c5a7264735636-build.zip"
+        },
+        "hello2": {
+          "deploymentBucketName": "amplify-nextamplify-staging-144539-deployment",
+          "s3Key": "amplify-builds/hello2-6748412b4d582b394873-build.zip"
         }
       },
       "storage": {
