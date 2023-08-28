@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/posts": {
+      "name": "/posts",
+      "lambdaFunction": "nextamplify6cb81334",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

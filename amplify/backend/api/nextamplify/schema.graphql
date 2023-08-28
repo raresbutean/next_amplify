@@ -1,0 +1,14 @@
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  joinDate: AWSDateTime
+  posts: [Post] @hasMany(indexName: "byUser", fields: ["id"])
+}
+
+type Post @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  content: String
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+ 

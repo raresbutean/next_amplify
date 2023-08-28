@@ -1,0 +1,10 @@
+{
+  "resourceName": "Posts",
+  "tableName": "Posts",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
